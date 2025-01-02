@@ -34,6 +34,7 @@ run:
 ```
 pip install thefuck
 ```
+if you require not to have 'no fucks given' in the terminal when thefuck cannot find the command, you can find the install dir with pip show thefuck, then change ui.py with your desired line like 'No fix found'
 
 # 6. Updating the Microsoft.Powershell_profile.ps1
 In Users/Documents/WindowsPowerShell OR %windir%/system32/WindowsPowerShell/v1.0/ copy the file Microsoft.Powershell_profile.ps1
