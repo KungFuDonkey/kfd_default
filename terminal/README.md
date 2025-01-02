@@ -5,9 +5,9 @@ Install nerd fonts, especially the JetBrainsMono (download zip in releases): git
 
 # 2. Install Oh-My-Posh
 Open a terminal and run:
-
+```
 winget install JanDeDobbeleer.OhMyPosh -s winget
-
+```
 It sometimes makes sense to move the installation folder from AppData/Local/Programs/oh-my-posh to a section that is not regulated by antivirus software
 do not forget to change the following env vars:
 POSH_THEMES_PATH
@@ -31,15 +31,18 @@ set background image opacity to roughly 27%
 
 # 5. Install thefuck
 run:
-
+```
 pip install thefuck
+```
 
 # 6. Updating the Microsoft.Powershell_profile.ps1
-In Users/Documents/WindowsPowerShell copy the file Microsoft.Powershell_profile.ps1
+In Users/Documents/WindowsPowerShell OR %windir%/system32/WindowsPowerShell/v1.0/ copy the file Microsoft.Powershell_profile.ps1
 
 # 7. Set execution policy (if you hadn't yet)
 In powershell run:
+```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+```
 
 # 8. setup oh-my-posh theme
 Copy kfd.omp.json to the oh-my-posh themes folder
