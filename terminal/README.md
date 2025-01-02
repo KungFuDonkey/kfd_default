@@ -29,7 +29,7 @@ Change Font face to JetBrainsMono Nerd Font Mono
 Scroll down to Background image and in the path select the deathstar image
 set background image opacity to roughly 27%
 
-# 5. Install thefuck
+# 5. Install thefuck (Python 3.9 - 3.11)
 run:
 ```
 pip install thefuck
